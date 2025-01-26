@@ -5,32 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soundar's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <div class="logo">Soundar</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Soundar</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <section id="hero" class="hero">
     <div class="hero-content">
-      <h1>Hello, I'm Soundar</h1>
+      <h1>Hello, I'm <span class="highlight">Soundar</span></h1>
       <p>Crafting beautiful and user-centered digital experiences.</p>
       <a href="#work" class="btn">View My Work</a>
     </div>
   </section>
 
   <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>I am a UI/UX Designer with a passion for creating intuitive and aesthetic experiences.</p>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate UI/UX designer focused on blending creativity with usability.</p>
+    </div>
   </section>
 
-  <footer>
+  <section id="work" class="work">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="grid">
+        <div class="work-item"><img src="https://via.placeholder.com/400" alt="Project 1"></div>
+        <div class="work-item"><img src="https://via.placeholder.com/400" alt="Project 2"></div>
+        <div class="work-item"><img src="https://via.placeholder.com/400" alt="Project 3"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
     <p>&copy; 2025 Soundar. All rights reserved.</p>
   </footer>
 </body>
