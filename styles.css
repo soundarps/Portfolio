@@ -115,3 +115,54 @@ footer {
     color: #fff;
     font-size: 14px;
 }
+
+/* For tablets in portrait mode (768px and above) */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero h1 {
+        font-size: 36px;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    .about, .work, .contact {
+        padding: 80px 20px;
+    }
+}
+
+/* For smaller tablets (600px and below) */
+@media (max-width: 600px) {
+    .hero {
+        padding: 100px 20px;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .project img {
+        max-width: 100%;
+    }
+}
